@@ -41,4 +41,36 @@ public static void main(String[] args) {
 - `toString()`: Convert the list to a string for easy printing.
 
 
+# MyLinkedList
 
+`MyLinkedList` is a simple Java implementation of a singly linked list with basic operations like add, get, remove, clear, and reverse.
+
+## Usage
+
+You can use this `MyLinkedList` class in your Java projects to manage a linked list of objects.
+
+### Example
+
+```
+public static void main(String[] args) {
+    MyLinkedList list = new MyLinkedList();
+    list.add(10);
+    list.add("Asish");
+    list.add(10.5);
+    list.add(true);
+    list.add('a');
+    System.out.println(list);
+    System.out.println(list.get(0));
+    System.out.println(list.get(4));
+    list.add(0, "Sutar");
+    list.add(4, "Annie");
+    System.out.println(list);
+    list.remove(0);
+    list.remove(5);
+    System.out.println(list);
+    list.reverse();
+    System.out.println(list);
+    list.clear();
+    System.out.println(list);
+}
+```
