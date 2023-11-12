@@ -74,3 +74,40 @@ public static void main(String[] args) {
     System.out.println(list);
 }
 ```
+
+
+
+```
+# Searching Algorithms
+
+This Java project includes implementations of two common searching algorithms: Linear Search and Binary Search.
+
+## Linear Search
+
+The `LinearSearch` class provides a method `LinearSearchAlgo` that performs a linear search on an array to find the position of a specified element. If the element is found, it returns the index; otherwise, it returns -1.
+
+## Binary Search
+
+The `BinarySearch` class provides a method `binarySearch` that performs a binary search on a sorted array. It returns the index of the element if found; otherwise, it returns -1.
+
+## Usage
+
+You can use these searching algorithms in your Java projects to efficiently find elements in arrays.
+
+### Example
+
+```java
+public class SearchingAlgorithms {
+
+    public static void main(String[] args) {
+        int[] a = { 1, 2, 3, 4, 5, 6, 7, 8 };
+
+        // Linear Search
+        System.out.println("Linear Search for 1: " + LinearSearch.LinearSearchAlgo(a, 1));
+        System.out.println("Linear Search for 10: " + LinearSearch.LinearSearchAlgo(a, 10));
+
+        // Binary Search
+        System.out.println("Binary Search for 1: " + BinarySearch.binarySearch(a, 1));
+    }
+}
+```
