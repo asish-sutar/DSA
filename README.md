@@ -6,10 +6,11 @@ MyArrayList is a simple Java implementation of a dynamic array (similar to Array
 ## Usage
 
 You can use this `MyArrayList` class in your Java projects to dynamically manage a list of objects.
+```
 
 ### Example
-
 ```
+
 public static void main(String[] args) {
     MyArrayList list = new MyArrayList();
     list.add(10);
@@ -30,7 +31,7 @@ public static void main(String[] args) {
     System.out.println(list);
 }
 ```
-
+```
 ## Methods
 
 - `add(Object ele)`: Add an element to the end of the list.
