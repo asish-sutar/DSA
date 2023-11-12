@@ -30,7 +30,6 @@ public static void main(String[] args) {
     System.out.println(list);
 }
 ```
-```
 ## Methods
 
 - `add(Object ele)`: Add an element to the end of the list.
@@ -41,5 +40,5 @@ public static void main(String[] args) {
 - `get(int index)`: Get the element at a specific index.
 - `toString()`: Convert the list to a string for easy printing.
 
-```
+
 
