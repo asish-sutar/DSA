@@ -21,7 +21,7 @@ public static void main(String[] args) {
     System.out.println(list.get(0));
     System.out.println(list.get(4));
     list.add(0, "Sutar");
-    list.add(4, "Annie");
+    list.add(4, "abhi");
     System.out.println(list);
     list.remove(0);
     list.remove(5);
@@ -63,7 +63,7 @@ public static void main(String[] args) {
     System.out.println(list.get(0));
     System.out.println(list.get(4));
     list.add(0, "Sutar");
-    list.add(4, "Annie");
+    list.add(4, "ajju");
     System.out.println(list);
     list.remove(0);
     list.remove(5);
