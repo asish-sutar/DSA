@@ -121,7 +121,7 @@ public class MyLinkedList {
 		System.out.println(list.get(0));
 		System.out.println(list.get(4));
 		list.add(0, "Sutar");
-		list.add(4, "Annie");
+		list.add(4, "abhishek");
 		System.out.println(list);
 		list.remove(0);
 		list.remove(5);
