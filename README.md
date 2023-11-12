@@ -77,7 +77,7 @@ public static void main(String[] args) {
 
 
 
-```
+
 # Searching Algorithms
 
 This Java project includes implementations of two common searching algorithms: Linear Search and Binary Search.
@@ -96,7 +96,7 @@ You can use these searching algorithms in your Java projects to efficiently find
 
 ### Example
 
-```java
+```
 public class SearchingAlgorithms {
 
     public static void main(String[] args) {
