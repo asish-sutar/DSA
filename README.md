@@ -4,7 +4,7 @@ MyArrayList is a simple Java implementation of a dynamic array (similar to Array
 
 ## Usage
 
-You can use this `MyArrayList` class in your Java projects to dynamically manage a list of objects.
+You can use this `MyArrayList` class in your Java projects to dynamically manage a list of objects. 
 
 
 ### Example
